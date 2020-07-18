@@ -1,0 +1,80 @@
+
+body {
+   display: flex;
+}
+
+.title {
+    font-family: Arial;
+}
+
+.row {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+#add-btn {
+    width: 60px;
+    height: 60px;
+    background-color: #2ebaee;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.input-block {
+    height: 60px;
+    position: relative;
+    padding-right: 80px;
+}
+
+
+.task-input {
+    height: 60px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    border-bottom: 3px solid black;
+    width: 100%;
+}
+
+.todo {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.del-btn {
+    color: white;
+    outline: none;
+    background-color: #ee6655;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: ease 0.8s;
+    cursor: pointer;
+    width: 70px;
+    height: 35px;
+
+}
+
+.todo-list {
+    padding-left: 0;
+    padding-top: 20px;
+}
+
+.del-btn:hover {
+    background-color: #ee8675;
+}
+
+.task-elem {
+    font: 400 20px Arial;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
